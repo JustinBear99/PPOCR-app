@@ -26,8 +26,7 @@ def main():
             st.code(line, language=None)
     
     st.header('Reference')
-    st.markdown('This app is developed with [PP-OCRv2](https://github.com/PaddlePaddle/PaddleOCR) pretrained model.')
-
+    st.markdown('This app is developed with [PP-OCRv2](https://github.com/PaddlePaddle/PaddleOCR) model by [Justin Bear](https://github.com/JustinBear99/PPOCR-app).')
 
 if __name__ == "__main__":
     main()
