@@ -13,7 +13,7 @@ scikit_image==0.18.1
 scipy==1.6.1
 Shapely==1.8.0
 six==1.14.0
-skimage==0.0
+skimage==0.18.0
 streamlit==1.2.0
 tqdm==4.59.0
 visualdl==2.2.2
