@@ -9,13 +9,13 @@ or
 
 ### Install
 
-'''
+```
 git clone https://github.com/JustinBear99/PPOCR-app.git
 pip install -r requirements.txt
-'''
+```
 
 ### Run
 
-'''
+```
 streamlit run app.py
-'''
+```
