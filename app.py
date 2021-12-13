@@ -6,6 +6,7 @@ from tools.infer.predict_system import inference
 
 def main():
     st.title('Paddle OCR')
+    st.write('Optical character recognition for simplfied Chinese and English.')
     st.header('Upload your image')
     image = st.file_uploader('', type=['png', 'jpg', 'jpeg'])
     
@@ -26,7 +27,7 @@ def main():
             st.code(line, language=None)
     
     st.header('Reference')
-    st.markdown('This app is developed with [PP-OCRv2](https://github.com/PaddlePaddle/PaddleOCR) model by [Justin Bear](https://github.com/JustinBear99/PPOCR-app).')
+    st.markdown('This app is developed by [Justin Bear](https://github.com/JustinBear99/PPOCR-app) using [PP-OCRv2](https://github.com/PaddlePaddle/PaddleOCR) model.')
 
 if __name__ == "__main__":
     main()
